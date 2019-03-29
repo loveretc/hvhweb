@@ -7,3 +7,16 @@ Basic page for HvH sites, enjoy pasting. I don't need credits but it would be aw
 - Replace the title with
 ```javascript
 var msg = "title"
+```
+  if you want to adjust the speed
+  ```javascript
+  var speed = "value"
+  ```
+- To change the favicon replace
+```html
+<link rel="icon" type="image/ico" href="FAVICON">
+```
+- To change the background replace
+```html
+<img src="LINK/ROUTE" id="selector">
+```
