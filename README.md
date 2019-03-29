@@ -3,6 +3,7 @@ Basic page for HvH sites, enjoy pasting. I don't need credits but it would be aw
 
 <h2> How to customize it (for noobs) </h2>
 
+<h3> Basics </h3>
 - First check that the .css files are working, they should be linked automatically since they use ./css/
 - Replace the title with
 ```javascript
@@ -24,12 +25,15 @@ var msg = "title"
 ```html
 </svg> TEXT </a>
 ```
-<h2> Audio </h2>
+<h3> Audio </h3>
 I prefer using audio before videos because new chrome polices will not play the video until there's an action on the page so you will have to add a play button or start the video muted. If you want to use audio just replace
+
+- Audio works best with .mp3
 ```html
-<source src="DIRECTORY.mp3" type="audio/mpeg">
+<source src="directory.mp3" type="audio/mpeg">
 ```
-and to adjust the volume just change this variable
+- To adjust audio volume change this variable
 ```javascript
-audio.volume = 0.X;
+audio.volume = 0.3;
 ```
+
