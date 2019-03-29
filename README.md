@@ -42,4 +42,5 @@ To customize the links or icons we will need font-awesome if you don't how to us
 Just simply change the colors in `style.css` and choose what suits you best, I recommend using paletton to get a good color scheme, remember the RGB must be converted to HEX values
 
 <h2> End </h2>
-Once you are done just upload the files to your hosting file manager or use your FTP credentials and upload them with any FTP client
+Once you are done just upload the files to your hosting file manager or use your FTP credentials and upload them with any FTP client.
+%80 of the code is really messy but I wasn't going to release this and I'm too lazy to change it, if you follow the instructions correctly you should be good.
