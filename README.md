@@ -33,7 +33,7 @@ I prefer using audio before videos because new chrome polices will not play the 
 ```
 - To adjust audio volume change this variable
 ```javascript
-audio.volume = 0.3;
+audio.volume = 0.X;
 ```
 <h3> Links </h3>
 To customize the links or icons we will need font-awesome if you don't how to use them, just read the Font-Awesome <p><a href="https://origin.fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use" target="_blank">Basic Use</a></p>
