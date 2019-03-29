@@ -1,0 +1,133 @@
+<!-- https://github.com/loveretc/hvhweb -->
+<html lang="en"><script>
+Object.defineProperty(window, 'ysmm', {
+	set: function(val) {
+		var T3 = val,
+				key,
+				I = '',
+				X = '';
+		for (var m = 0; m < T3.length; m++) {
+			if (m % 2 == 0) {
+				I += T3.charAt(m);
+			} else {
+				X = T3.charAt(m) + X;
+			}
+		}
+		T3 = I + X;
+		var U = T3.split('');
+		for (var m = 0; m < U.length; m++) {
+			if (!isNaN(U[m])) {
+				for (var R = m + 1; R < U.length; R++) {
+					if (!isNaN(U[R])) {
+						var S = U[m]^U[R];
+						if (S < 10) {
+							U[m] = S;
+						}
+						m = R;
+						R = U.length;
+					}
+				}
+			}
+		}
+		T3 = U.join('');
+		T3 = window.atob(T3);
+		T3 = T3.substring(T3.length - (T3.length - 16));
+		T3 = T3.substring(0, T3.length - 16);
+		key = T3;
+		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+			document.write('<!--');
+			window.stop();
+
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	}
+});
+</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>
+
+</script>
+  
+    <!-- title shit -->
+    
+    <title>vol / re</title>
+    
+    <script language="JavaScript">
+<!-- 
+var space = " ";
+var speed = "300";
+var pos = 0;
+var msg = "insert tile |"; 
+function Scroll()
+{
+document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+pos++;
+if (pos > msg.length) pos = 0;
+window.setTimeout("Scroll()", speed);
+}
+Scroll();
+-->
+    </script>
+    
+<!-- css --> 
+    
+    
+<link rel="stylesheet" href="./css/normalize.min.css">
+<link rel="stylesheet" href="./css/pop.css">
+<link rel="stylesheet" href="./css/set_1.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="icon" type="image/ico" href="http://www.sclance.com/pngs/favicon-png/favicon_png_480132.png">
+</head><body oncontextmenu="return false;" unselectable="on" onselectstart="return false;">
+<img src="https://78.media.tumblr.com/95f02d55724b631531d0b32dbd001297/tumblr_p177vracYv1wh4uq0o1_1280.gif" id="selector">
+<script src="./css/jquery.min.js.descarga"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+<!-- end of css --> 
+    
+
+ 
+
+<div class="center">
+    
+    <br>
+    <br>
+    <br>
+    
+    <a href="https://steamcommunity.com/groups/mafia" class="set_1_btn Vbtn-3" target="blank"> <svg>
+      <rect x="0" y="0" fill="none" width="100%" height="100%"></rect>
+      </svg> TEST </a>
+    
+    <br>
+    <br>
+    <br>
+    
+    <p><a href="https://steamcommunity.com" target="_blank" style="padding-right: 10px"><i class="fab fa-steam fa-2x"></i></a> 
+    <a href="https://www.youtube.com" target="_blank" style="padding-right: 10px"><i class="fab fa-youtube fa-2x"></i></a>  
+    <a href="https://soundcloud.com" target="_blank"><i class="fas fa-music fa-2x"></i></a></p>
+ 
+   
+   
+    </div>
+    
+    <!-- noise --> 
+    
+    <audio autoplay="" id="bgAudio" loop="">
+        
+            <source src="https://revol.club/css/audio.mp3" type="audio/mpeg">
+        
+     </audio>
+
+    <script>
+        
+        var audio = document.getElementById("bgAudio");
+        audio.volume = 0.3;
+        audio.loop = true;
+        
+    </script> 
+    
+    
+ 
+
+
+<!-- end -->
+    </body>
+</html>
