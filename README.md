@@ -36,7 +36,7 @@ I prefer using audio before videos because new chrome polices will not play the 
 audio.volume = X; //value should be X <= 1 and X >= 0
 ```
 <h3> Links </h3>
-To customize the links or icons we will need font-awesome if you don't how to use them, just read the Font-Awesome <p><a href="https://origin.fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use" target="_blank">Basic Use</a></p>
+To customize the links or icons you will need font-awesome if you don't know how to use them, just read the Font-Awesome <p><a href="https://origin.fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use" target="_blank">Basic Use</a></p>
 
 <h3> Colors </h3>
 Just simply change the colors in `style.css` and choose what suits you best, I recommend using paletton to get a good color scheme, remember the RGB must be converted to HEX values
