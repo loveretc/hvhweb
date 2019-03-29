@@ -37,3 +37,9 @@ audio.volume = 0.3;
 ```
 <h3> Links </h3>
 To customize the links or icons we will need font-awesome if you don't how to use them, just read the Font-Awesome <p><a href="https://origin.fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use" target="_blank">Basic Use</a></p>
+
+<h3> Colors </h3>
+Just simply change the colors in `style.css` and choose what suits you best, I recommend using paletton to get a good color scheme, remember the RGB must be converted to HEX values
+
+<h2> End </h2>
+Once you are done just upload the files to your hosting file manager or use your FTP credentials and upload them with any FTP client
